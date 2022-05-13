@@ -18,6 +18,18 @@ distance_convert_to = {
     "kílómetrar": "margir",
 }
 
+
+distance_convert_to_s3 = [
+    "fet",
+    "tommur",
+    "mílur",
+    "millimetra",
+    "sentimetra",
+    "metra",
+    "kílómetra",
+]
+
+
 distance_units_s1 = {
     "millimetri": {
         "f_et_kk_nf": "millimetri",
@@ -101,4 +113,83 @@ distance_units_s2 = {
 }
 
 
-volume_unit_s1 = {}
+distance_units_s3 = {
+    "millimetri": {
+        "f_et_kk_þgf": "millimetra",
+        "f_ft_kk_þgf": "millimetrum",
+        "f_at_af": "millimetrum",
+        "_": "millimetrar",
+    },
+    "sentimetri": {
+        "f_et_kk_þgf": "sentimetra",
+        "f_ft_kk_þgf": "sentimetrum",
+        "f_at_af": "sentimetrum",
+        "_": "sentimetrar",
+    },
+    "metri": {
+        "f_et_kk_þgf": "metra",
+        "f_ft_kk_þgf": "metrum",
+        "f_at_af": "metrum",
+        "_": "metrar",
+    },
+    "kílómetri": {
+        "f_et_kk_þgf": "kílómetra",
+        "f_ft_kk_þgf": "kílómetrum",
+        "f_at_af": "kílómetrum",
+        "_": "kílómetrar",
+    },
+    "míla": {
+        "f_et_kvk_þgf": "mílu",
+        "f_ft_kvk_þgf": "mílum",
+        "f_at_af": "mílum",
+        "_": "mílur",
+    },
+    "tomma": {
+        "f_et_kvk_þgf": "tommu",
+        "f_ft_kvk_þgf": "tommum",
+        "f_at_af": "tommum",
+        "_": "tommur",
+    },
+    "fet": {
+        "f_et_hk_þgf": "feti",
+        "f_ft_hk_þgf": "fetum",
+        "f_at_af": "fetum",
+        "_": "fet",
+    },
+}
+
+volume_convert_to = {
+    "lítrar": "margir",
+    "millilítrar": "margir",
+    "desilítrar": "margir",
+    "grömm": "mörg",
+    "kílógröm": "mörg",
+    "pund": "mörg",
+    "bollar": "margir",
+    "únsur": "margar",
+    "matskeiðar": "margar",
+    "peli": "margir",
+}
+
+
+volume_unit_s1 = {
+    "lítri": {
+        "f_et_kk_nf": "lítri",
+        "f_ft_kk_nf": "lítrar",
+        "f_at_af": "lítrar",
+    },
+    "desilítri": {
+        "f_et_kk_nf": "desilítri",
+        "f_ft_kk_nf": "desilítrar",
+        "f_at_af": "desilítrar",
+    },
+    "millilítri": {
+        "f_et_kk_nf": "millilítri",
+        "f_ft_kk_nf": "millilítrar",
+        "f_at_af": "millilítrar",
+    },
+    "grömm": {
+        "f_et_hk_nf": "gramm",
+        "f_at_af": "grömm",
+    },
+}
