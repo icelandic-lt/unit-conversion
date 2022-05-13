@@ -1,0 +1,931 @@
+1	f_et_kk_nf	einn
+1	f_et_kk_þf	einn
+1	f_et_kk_þgf	einum
+1	f_et_kk_ef	eins
+1	f_et_kvk_nf	ein
+1	f_et_kvk_þf	eina
+1	f_et_kvk_þgf	einni
+1	f_et_kvk_ef	einnar
+1	f_et_hk_nf	eitt
+1	f_et_hk_þf	eitt
+1	f_et_hk_þgf	einu
+1	f_et_hk_ef	eins
+1	f_ft_kk_nf	einir
+1	f_ft_kk_þf	eina
+1	f_ft_kk_þgf	einum
+1	f_ft_kk_ef	einna
+1	f_ft_kvk_nf	einar
+1	f_ft_kvk_þf	einar
+1	f_ft_kvk_þgf	einum
+1	f_ft_kvk_ef	einna
+1	f_ft_hk_nf	ein
+1	f_ft_hk_þf	ein
+1	f_ft_hk_þgf	einum
+1	f_ft_hk_ef	einna
+2	f_ft_kk_nf	tveir
+2	f_ft_kk_þf	tvo
+2	f_ft_kk_þgf	tveimur
+2	f_ft_kk_þgf	tveim
+2	f_ft_kk_ef	tvegga
+2	f_ft_kvk_nf	tvær
+2	f_ft_kvk_þf	tvær
+2	f_ft_kvk_þgf	tveimur
+2	f_ft_kvk_þgf	tveim
+2	f_ft_kvk_ef	tveggja
+2	f_ft_hk_nf	tvö
+2	f_ft_hk_þf	tvö
+2	f_ft_hk_þgf	tveimur
+2	f_ft_hk_þgf	tveim
+2	f_ft_hk_ef	tveggja
+3	f_ft_kk_nf	þrír
+3	f_ft_kk_þf	þrjá
+3	f_ft_kk_þgf	þremur
+3	f_ft_kk_þgf	þrem
+3	f_ft_kk_ef	þriggja
+3	f_ft_kvk_nf	þrjár
+3	f_ft_kvk_þf	þrjár
+3	f_ft_kvk_þgf	þremur
+3	f_ft_kvk_þgf	þrem
+3	f_ft_kvk_ef	þriggja
+3	f_ft_hk_nf	þrjú
+3	f_ft_hk_þf	þrjú
+3	f_ft_hk_þgf	þremur
+3	f_ft_hk_þgf	þrem
+3	f_ft_hk_ef	þriggja
+4	f_ft_kk_nf	fjórir
+4	f_ft_kk_þf	fjóra
+4	f_ft_kk_þgf	fjórum
+4	f_ft_kk_ef	fjögurra
+4	f_ft_kk_ef	fjögra
+4	f_ft_kvk_nf	fjórar
+4	f_ft_kvk_þf	fjórar
+4	f_ft_kvk_þgf	fjórum
+4	f_ft_kvk_ef	fjögurra
+4	f_ft_kvk_ef	fjögra
+4	f_ft_hk_nf	fjögur
+4	f_ft_hk_þf	fjögur
+4	f_ft_hk_þgf	fjórum
+4	f_ft_hk_ef	fjögurra
+4	f_ft_hk_ef	fjögra
+5	f_at_af	fimm
+6	f_at_af	sex
+7	f_at_af	sjö
+8	f_at_af	átta
+9	f_at_af	níu
+10	f_at_af	tíu
+11	f_at_af	ellefu
+12	f_at_af	tólf
+13	f_at_af	þréttán
+14	f_at_af	fjórtán
+15	f_at_af	fimmtán
+16	f_at_af	sextán
+17	f_at_af	sautján
+18	f_at_af	átján
+19	f_at_af	nítján
+20	f_at_af	tuttugu
+21	f_et_kk_nf	tuttugu og einn
+21	f_et_kk_þf	tuttugu og einn
+21	f_et_kk_þgf	tuttugu og einum
+21	f_et_kk_ef	tuttugu og eins
+21	f_et_kvk_nf	tuttugu og ein
+21	f_et_kvk_þf	tuttugu og eina
+21	f_et_kvk_þgf	tuttugu og einni
+21	f_et_kvk_ef	tuttugu og einnar
+21	f_et_hk_nf	tuttugu og eitt
+21	f_et_hk_þf	tuttugu og eitt
+21	f_et_hk_þgf	tuttugu og einu
+21	f_et_hk_ef	tuttugu og eins
+21	f_ft_kk_nf	tuttugu og einir
+21	f_ft_kk_þf	tuttugu og eina
+21	f_ft_kk_þgf	tuttugu og einum
+21	f_ft_kk_ef	tuttugu og einna
+21	f_ft_kvk_nf	tuttugu og einar
+21	f_ft_kvk_þf	tuttugu og einar
+21	f_ft_kvk_þgf	tuttugu og einum
+21	f_ft_kvk_ef	tuttugu og einna
+21	f_ft_hk_nf	tuttugu og ein
+21	f_ft_hk_þf	tuttugu og ein
+21	f_ft_hk_þgf	tuttugu og einum
+21	f_ft_hk_ef	tuttugu og einna
+22	f_ft_kk_nf	tuttugu og tveir
+22	f_ft_kk_þf	tuttugu og tvo
+22	f_ft_kk_þgf	tuttugu og tveimur
+22	f_ft_kk_þgf	tuttugu og tveim
+22	f_ft_kk_ef	tuttugu og tvegga
+22	f_ft_kvk_nf	tuttugu og tvær
+22	f_ft_kvk_þf	tuttugu og tvær
+22	f_ft_kvk_þgf	tuttugu og tveimur
+22	f_ft_kvk_þgf	tuttugu og tveim
+22	f_ft_kvk_ef	tuttugu og tveggja
+22	f_ft_hk_nf	tuttugu og tvö
+22	f_ft_hk_þf	tuttugu og tvö
+22	f_ft_hk_þgf	tuttugu og tveimur
+22	f_ft_hk_þgf	tuttugu og tveim
+22	f_ft_hk_ef	tuttugu og tveggja
+23	f_ft_kk_nf	tuttugu og þrír
+23	f_ft_kk_þf	tuttugu og þrjá
+23	f_ft_kk_þgf	tuttugu og þremur
+23	f_ft_kk_þgf	tuttugu og þrem
+23	f_ft_kk_ef	tuttugu og þriggja
+23	f_ft_kvk_nf	tuttugu og þrjár
+23	f_ft_kvk_þf	tuttugu og þrjár
+23	f_ft_kvk_þgf	tuttugu og þremur
+23	f_ft_kvk_þgf	tuttugu og þrem
+23	f_ft_kvk_ef	tuttugu og þriggja
+23	f_ft_hk_nf	tuttugu og þrjú
+23	f_ft_hk_þf	tuttugu og þrjú
+23	f_ft_hk_þgf	tuttugu og þremur
+23	f_ft_hk_þgf	tuttugu og þrem
+23	f_ft_hk_ef	tuttugu og þriggja
+24	f_ft_kk_nf	tuttugu og fjórir
+24	f_ft_kk_þf	tuttugu og fjóra
+24	f_ft_kk_þgf	tuttugu og fjórum
+24	f_ft_kk_ef	tuttugu og fjögurra
+24	f_ft_kk_ef	tuttugu og fjögra
+24	f_ft_kvk_nf	tuttugu og fjórar
+24	f_ft_kvk_þf	tuttugu og fjórar
+24	f_ft_kvk_þgf	tuttugu og fjórum
+24	f_ft_kvk_ef	tuttugu og fjögurra
+24	f_ft_kvk_ef	tuttugu og fjögra
+24	f_ft_hk_nf	tuttugu og fjögur
+24	f_ft_hk_þf	tuttugu og fjögur
+24	f_ft_hk_þgf	tuttugu og fjórum
+24	f_ft_hk_ef	tuttugu og fjögurra
+24	f_ft_hk_ef	tuttugu og fjögra
+25	f_at_af	tuttugu og fimm
+26	f_at_af	tuttugu og sex
+27	f_at_af	tuttugu og sjö
+28	f_at_af	tuttugu og átta
+29	f_at_af	tuttugu og níu
+30	f_at_af	þrjátíu
+31	f_et_kk_nf	þrjátíu og einn
+31	f_et_kk_þf	þrjátíu og einn
+31	f_et_kk_þgf	þrjátíu og einum
+31	f_et_kk_ef	þrjátíu og eins
+31	f_et_kvk_nf	þrjátíu og ein
+31	f_et_kvk_þf	þrjátíu og eina
+31	f_et_kvk_þgf	þrjátíu og einni
+31	f_et_kvk_ef	þrjátíu og einnar
+31	f_et_hk_nf	þrjátíu og eitt
+31	f_et_hk_þf	þrjátíu og eitt
+31	f_et_hk_þgf	þrjátíu og einu
+31	f_et_hk_ef	þrjátíu og eins
+31	f_ft_kk_nf	þrjátíu og einir
+31	f_ft_kk_þf	þrjátíu og eina
+31	f_ft_kk_þgf	þrjátíu og einum
+31	f_ft_kk_ef	þrjátíu og einna
+31	f_ft_kvk_nf	þrjátíu og einar
+31	f_ft_kvk_þf	þrjátíu og einar
+31	f_ft_kvk_þgf	þrjátíu og einum
+31	f_ft_kvk_ef	þrjátíu og einna
+31	f_ft_hk_nf	þrjátíu og ein
+31	f_ft_hk_þf	þrjátíu og ein
+31	f_ft_hk_þgf	þrjátíu og einum
+31	f_ft_hk_ef	þrjátíu og einna
+32	f_ft_kk_nf	þrjátíu og tveir
+32	f_ft_kk_þf	þrjátíu og tvo
+32	f_ft_kk_þgf	þrjátíu og tveimur
+32	f_ft_kk_þgf	þrjátíu og tveim
+32	f_ft_kk_ef	þrjátíu og tvegga
+32	f_ft_kvk_nf	þrjátíu og tvær
+32	f_ft_kvk_þf	þrjátíu og tvær
+32	f_ft_kvk_þgf	þrjátíu og tveimur
+32	f_ft_kvk_þgf	þrjátíu og tveim
+32	f_ft_kvk_ef	þrjátíu og tveggja
+32	f_ft_hk_nf	þrjátíu og tvö
+32	f_ft_hk_þf	þrjátíu og tvö
+32	f_ft_hk_þgf	þrjátíu og tveimur
+32	f_ft_hk_þgf	þrjátíu og tveim
+32	f_ft_hk_ef	þrjátíu og tveggja
+33	f_ft_kk_nf	þrjátíu og þrír
+33	f_ft_kk_þf	þrjátíu og þrjá
+33	f_ft_kk_þgf	þrjátíu og þremur
+33	f_ft_kk_þgf	þrjátíu og þrem
+33	f_ft_kk_ef	þrjátíu og þriggja
+33	f_ft_kvk_nf	þrjátíu og þrjár
+33	f_ft_kvk_þf	þrjátíu og þrjár
+33	f_ft_kvk_þgf	þrjátíu og þremur
+33	f_ft_kvk_þgf	þrjátíu og þrem
+33	f_ft_kvk_ef	þrjátíu og þriggja
+33	f_ft_hk_nf	þrjátíu og þrjú
+33	f_ft_hk_þf	þrjátíu og þrjú
+33	f_ft_hk_þgf	þrjátíu og þremur
+33	f_ft_hk_þgf	þrjátíu og þrem
+33	f_ft_hk_ef	þrjátíu og þriggja
+34	f_ft_kk_nf	þrjátíu og fjórir
+34	f_ft_kk_þf	þrjátíu og fjóra
+34	f_ft_kk_þgf	þrjátíu og fjórum
+34	f_ft_kk_ef	þrjátíu og fjögurra
+34	f_ft_kk_ef	þrjátíu og fjögra
+34	f_ft_kvk_nf	þrjátíu og fjórar
+34	f_ft_kvk_þf	þrjátíu og fjórar
+34	f_ft_kvk_þgf	þrjátíu og fjórum
+34	f_ft_kvk_ef	þrjátíu og fjögurra
+34	f_ft_kvk_ef	þrjátíu og fjögra
+34	f_ft_hk_nf	þrjátíu og fjögur
+34	f_ft_hk_þf	þrjátíu og fjögur
+34	f_ft_hk_þgf	þrjátíu og fjórum
+34	f_ft_hk_ef	þrjátíu og fjögurra
+34	f_ft_hk_ef	þrjátíu og fjögra
+35	f_at_af	þrjátíu og fimm
+36	f_at_af	þrjátíu og sex
+37	f_at_af	þrjátíu og sjö
+38	f_at_af	þrjátíu og átta
+39	f_at_af	þrjátíu og níu
+40	f_at_af	fjörutíu
+41	f_et_kk_nf	fjörutíu og einn
+41	f_et_kk_þf	fjörutíu og einn
+41	f_et_kk_þgf	fjörutíu og einum
+41	f_et_kk_ef	fjörutíu og eins
+41	f_et_kvk_nf	fjörutíu og ein
+41	f_et_kvk_þf	fjörutíu og eina
+41	f_et_kvk_þgf	fjörutíu og einni
+41	f_et_kvk_ef	fjörutíu og einnar
+41	f_et_hk_nf	fjörutíu og eitt
+41	f_et_hk_þf	fjörutíu og eitt
+41	f_et_hk_þgf	fjörutíu og einu
+41	f_et_hk_ef	fjörutíu og eins
+41	f_ft_kk_nf	fjörutíu og einir
+41	f_ft_kk_þf	fjörutíu og eina
+41	f_ft_kk_þgf	fjörutíu og einum
+41	f_ft_kk_ef	fjörutíu og einna
+41	f_ft_kvk_nf	fjörutíu og einar
+41	f_ft_kvk_þf	fjörutíu og einar
+41	f_ft_kvk_þgf	fjörutíu og einum
+41	f_ft_kvk_ef	fjörutíu og einna
+41	f_ft_hk_nf	fjörutíu og ein
+41	f_ft_hk_þf	fjörutíu og ein
+41	f_ft_hk_þgf	fjörutíu og einum
+41	f_ft_hk_ef	fjörutíu og einna
+42	f_ft_kk_nf	fjörutíu og tveir
+42	f_ft_kk_þf	fjörutíu og tvo
+42	f_ft_kk_þgf	fjörutíu og tveimur
+42	f_ft_kk_þgf	fjörutíu og tveim
+42	f_ft_kk_ef	fjörutíu og tvegga
+42	f_ft_kvk_nf	fjörutíu og tvær
+42	f_ft_kvk_þf	fjörutíu og tvær
+42	f_ft_kvk_þgf	fjörutíu og tveimur
+42	f_ft_kvk_þgf	fjörutíu og tveim
+42	f_ft_kvk_ef	fjörutíu og tveggja
+42	f_ft_hk_nf	fjörutíu og tvö
+42	f_ft_hk_þf	fjörutíu og tvö
+42	f_ft_hk_þgf	fjörutíu og tveimur
+42	f_ft_hk_þgf	fjörutíu og tveim
+42	f_ft_hk_ef	fjörutíu og tveggja
+43	f_ft_kk_nf	fjörutíu og þrír
+43	f_ft_kk_þf	fjörutíu og þrjá
+43	f_ft_kk_þgf	fjörutíu og þremur
+43	f_ft_kk_þgf	fjörutíu og þrem
+43	f_ft_kk_ef	fjörutíu og þriggja
+43	f_ft_kvk_nf	fjörutíu og þrjár
+43	f_ft_kvk_þf	fjörutíu og þrjár
+43	f_ft_kvk_þgf	fjörutíu og þremur
+43	f_ft_kvk_þgf	fjörutíu og þrem
+43	f_ft_kvk_ef	fjörutíu og þriggja
+43	f_ft_hk_nf	fjörutíu og þrjú
+43	f_ft_hk_þf	fjörutíu og þrjú
+43	f_ft_hk_þgf	fjörutíu og þremur
+43	f_ft_hk_þgf	fjörutíu og þrem
+43	f_ft_hk_ef	fjörutíu og þriggja
+44	f_ft_kk_nf	fjörutíu og fjórir
+44	f_ft_kk_þf	fjörutíu og fjóra
+44	f_ft_kk_þgf	fjörutíu og fjórum
+44	f_ft_kk_ef	fjörutíu og fjögurra
+44	f_ft_kk_ef	fjörutíu og fjögra
+44	f_ft_kvk_nf	fjörutíu og fjórar
+44	f_ft_kvk_þf	fjörutíu og fjórar
+44	f_ft_kvk_þgf	fjörutíu og fjórum
+44	f_ft_kvk_ef	fjörutíu og fjögurra
+44	f_ft_kvk_ef	fjörutíu og fjögra
+44	f_ft_hk_nf	fjörutíu og fjögur
+44	f_ft_hk_þf	fjörutíu og fjögur
+44	f_ft_hk_þgf	fjörutíu og fjórum
+44	f_ft_hk_ef	fjörutíu og fjögurra
+44	f_ft_hk_ef	fjörutíu og fjögra
+45	f_at_af	fjörutíu og fimm
+46	f_at_af	fjörutíu og sex
+47	f_at_af	fjörutíu og sjö
+48	f_at_af	fjörutíu og átta
+49	f_at_af	fjörutíu og níu
+50	f_at_af	fimmtíu
+51	f_et_kk_nf	fimmtíu og einn
+51	f_et_kk_þf	fimmtíu og einn
+51	f_et_kk_þgf	fimmtíu og einum
+51	f_et_kk_ef	fimmtíu og eins
+51	f_et_kvk_nf	fimmtíu og ein
+51	f_et_kvk_þf	fimmtíu og eina
+51	f_et_kvk_þgf	fimmtíu og einni
+51	f_et_kvk_ef	fimmtíu og einnar
+51	f_et_hk_nf	fimmtíu og eitt
+51	f_et_hk_þf	fimmtíu og eitt
+51	f_et_hk_þgf	fimmtíu og einu
+51	f_et_hk_ef	fimmtíu og eins
+51	f_ft_kk_nf	fimmtíu og einir
+51	f_ft_kk_þf	fimmtíu og eina
+51	f_ft_kk_þgf	fimmtíu og einum
+51	f_ft_kk_ef	fimmtíu og einna
+51	f_ft_kvk_nf	fimmtíu og einar
+51	f_ft_kvk_þf	fimmtíu og einar
+51	f_ft_kvk_þgf	fimmtíu og einum
+51	f_ft_kvk_ef	fimmtíu og einna
+51	f_ft_hk_nf	fimmtíu og ein
+51	f_ft_hk_þf	fimmtíu og ein
+51	f_ft_hk_þgf	fimmtíu og einum
+51	f_ft_hk_ef	fimmtíu og einna
+52	f_ft_kk_nf	fimmtíu og tveir
+52	f_ft_kk_þf	fimmtíu og tvo
+52	f_ft_kk_þgf	fimmtíu og tveimur
+52	f_ft_kk_þgf	fimmtíu og tveim
+52	f_ft_kk_ef	fimmtíu og tvegga
+52	f_ft_kvk_nf	fimmtíu og tvær
+52	f_ft_kvk_þf	fimmtíu og tvær
+52	f_ft_kvk_þgf	fimmtíu og tveimur
+52	f_ft_kvk_þgf	fimmtíu og tveim
+52	f_ft_kvk_ef	fimmtíu og tveggja
+52	f_ft_hk_nf	fimmtíu og tvö
+52	f_ft_hk_þf	fimmtíu og tvö
+52	f_ft_hk_þgf	fimmtíu og tveimur
+52	f_ft_hk_þgf	fimmtíu og tveim
+52	f_ft_hk_ef	fimmtíu og tveggja
+53	f_ft_kk_nf	fimmtíu og þrír
+53	f_ft_kk_þf	fimmtíu og þrjá
+53	f_ft_kk_þgf	fimmtíu og þremur
+53	f_ft_kk_þgf	fimmtíu og þrem
+53	f_ft_kk_ef	fimmtíu og þriggja
+53	f_ft_kvk_nf	fimmtíu og þrjár
+53	f_ft_kvk_þf	fimmtíu og þrjár
+53	f_ft_kvk_þgf	fimmtíu og þremur
+53	f_ft_kvk_þgf	fimmtíu og þrem
+53	f_ft_kvk_ef	fimmtíu og þriggja
+53	f_ft_hk_nf	fimmtíu og þrjú
+53	f_ft_hk_þf	fimmtíu og þrjú
+53	f_ft_hk_þgf	fimmtíu og þremur
+53	f_ft_hk_þgf	fimmtíu og þrem
+53	f_ft_hk_ef	fimmtíu og þriggja
+54	f_ft_kk_nf	fimmtíu og fjórir
+54	f_ft_kk_þf	fimmtíu og fjóra
+54	f_ft_kk_þgf	fimmtíu og fjórum
+54	f_ft_kk_ef	fimmtíu og fjögurra
+54	f_ft_kk_ef	fimmtíu og fjögra
+54	f_ft_kvk_nf	fimmtíu og fjórar
+54	f_ft_kvk_þf	fimmtíu og fjórar
+54	f_ft_kvk_þgf	fimmtíu og fjórum
+54	f_ft_kvk_ef	fimmtíu og fjögurra
+54	f_ft_kvk_ef	fimmtíu og fjögra
+54	f_ft_hk_nf	fimmtíu og fjögur
+54	f_ft_hk_þf	fimmtíu og fjögur
+54	f_ft_hk_þgf	fimmtíu og fjórum
+54	f_ft_hk_ef	fimmtíu og fjögurra
+54	f_ft_hk_ef	fimmtíu og fjögra
+55	f_at_af	fimmtíu og fimm
+56	f_at_af	fimmtíu og sex
+57	f_at_af	fimmtíu og sjö
+58	f_at_af	fimmtíu og átta
+59	f_at_af	fimmtíu og níu
+60	f_at_af	sextíu
+61	f_et_kk_nf	sextíu og einn
+61	f_et_kk_þf	sextíu og einn
+61	f_et_kk_þgf	sextíu og einum
+61	f_et_kk_ef	sextíu og eins
+61	f_et_kvk_nf	sextíu og ein
+61	f_et_kvk_þf	sextíu og eina
+61	f_et_kvk_þgf	sextíu og einni
+61	f_et_kvk_ef	sextíu og einnar
+61	f_et_hk_nf	sextíu og eitt
+61	f_et_hk_þf	sextíu og eitt
+61	f_et_hk_þgf	sextíu og einu
+61	f_et_hk_ef	sextíu og eins
+61	f_ft_kk_nf	sextíu og einir
+61	f_ft_kk_þf	sextíu og eina
+61	f_ft_kk_þgf	sextíu og einum
+61	f_ft_kk_ef	sextíu og einna
+61	f_ft_kvk_nf	sextíu og einar
+61	f_ft_kvk_þf	sextíu og einar
+61	f_ft_kvk_þgf	sextíu og einum
+61	f_ft_kvk_ef	sextíu og einna
+61	f_ft_hk_nf	sextíu og ein
+61	f_ft_hk_þf	sextíu og ein
+61	f_ft_hk_þgf	sextíu og einum
+61	f_ft_hk_ef	sextíu og einna
+62	f_ft_kk_nf	sextíu og tveir
+62	f_ft_kk_þf	sextíu og tvo
+62	f_ft_kk_þgf	sextíu og tveimur
+62	f_ft_kk_þgf	sextíu og tveim
+62	f_ft_kk_ef	sextíu og tvegga
+62	f_ft_kvk_nf	sextíu og tvær
+62	f_ft_kvk_þf	sextíu og tvær
+62	f_ft_kvk_þgf	sextíu og tveimur
+62	f_ft_kvk_þgf	sextíu og tveim
+62	f_ft_kvk_ef	sextíu og tveggja
+62	f_ft_hk_nf	sextíu og tvö
+62	f_ft_hk_þf	sextíu og tvö
+62	f_ft_hk_þgf	sextíu og tveimur
+62	f_ft_hk_þgf	sextíu og tveim
+62	f_ft_hk_ef	sextíu og tveggja
+63	f_ft_kk_nf	sextíu og þrír
+63	f_ft_kk_þf	sextíu og þrjá
+63	f_ft_kk_þgf	sextíu og þremur
+63	f_ft_kk_þgf	sextíu og þrem
+63	f_ft_kk_ef	sextíu og þriggja
+63	f_ft_kvk_nf	sextíu og þrjár
+63	f_ft_kvk_þf	sextíu og þrjár
+63	f_ft_kvk_þgf	sextíu og þremur
+63	f_ft_kvk_þgf	sextíu og þrem
+63	f_ft_kvk_ef	sextíu og þriggja
+63	f_ft_hk_nf	sextíu og þrjú
+63	f_ft_hk_þf	sextíu og þrjú
+63	f_ft_hk_þgf	sextíu og þremur
+63	f_ft_hk_þgf	sextíu og þrem
+63	f_ft_hk_ef	sextíu og þriggja
+64	f_ft_kk_nf	sextíu og fjórir
+64	f_ft_kk_þf	sextíu og fjóra
+64	f_ft_kk_þgf	sextíu og fjórum
+64	f_ft_kk_ef	sextíu og fjögurra
+64	f_ft_kk_ef	sextíu og fjögra
+64	f_ft_kvk_nf	sextíu og fjórar
+64	f_ft_kvk_þf	sextíu og fjórar
+64	f_ft_kvk_þgf	sextíu og fjórum
+64	f_ft_kvk_ef	sextíu og fjögurra
+64	f_ft_kvk_ef	sextíu og fjögra
+64	f_ft_hk_nf	sextíu og fjögur
+64	f_ft_hk_þf	sextíu og fjögur
+64	f_ft_hk_þgf	sextíu og fjórum
+64	f_ft_hk_ef	sextíu og fjögurra
+64	f_ft_hk_ef	sextíu og fjögra
+65	f_at_af	sextíu og fimm
+66	f_at_af	sextíu og sex
+67	f_at_af	sextíu og sjö
+68	f_at_af	sextíu og átta
+69	f_at_af	sextíu og níu
+70	f_at_af	sjötíu
+71	f_et_kk_nf	sjötíu og einn
+71	f_et_kk_þf	sjötíu og einn
+71	f_et_kk_þgf	sjötíu og einum
+71	f_et_kk_ef	sjötíu og eins
+71	f_et_kvk_nf	sjötíu og ein
+71	f_et_kvk_þf	sjötíu og eina
+71	f_et_kvk_þgf	sjötíu og einni
+71	f_et_kvk_ef	sjötíu og einnar
+71	f_et_hk_nf	sjötíu og eitt
+71	f_et_hk_þf	sjötíu og eitt
+71	f_et_hk_þgf	sjötíu og einu
+71	f_et_hk_ef	sjötíu og eins
+71	f_ft_kk_nf	sjötíu og einir
+71	f_ft_kk_þf	sjötíu og eina
+71	f_ft_kk_þgf	sjötíu og einum
+71	f_ft_kk_ef	sjötíu og einna
+71	f_ft_kvk_nf	sjötíu og einar
+71	f_ft_kvk_þf	sjötíu og einar
+71	f_ft_kvk_þgf	sjötíu og einum
+71	f_ft_kvk_ef	sjötíu og einna
+71	f_ft_hk_nf	sjötíu og ein
+71	f_ft_hk_þf	sjötíu og ein
+71	f_ft_hk_þgf	sjötíu og einum
+71	f_ft_hk_ef	sjötíu og einna
+72	f_ft_kk_nf	sjötíu og tveir
+72	f_ft_kk_þf	sjötíu og tvo
+72	f_ft_kk_þgf	sjötíu og tveimur
+72	f_ft_kk_þgf	sjötíu og tveim
+72	f_ft_kk_ef	sjötíu og tvegga
+72	f_ft_kvk_nf	sjötíu og tvær
+72	f_ft_kvk_þf	sjötíu og tvær
+72	f_ft_kvk_þgf	sjötíu og tveimur
+72	f_ft_kvk_þgf	sjötíu og tveim
+72	f_ft_kvk_ef	sjötíu og tveggja
+72	f_ft_hk_nf	sjötíu og tvö
+72	f_ft_hk_þf	sjötíu og tvö
+72	f_ft_hk_þgf	sjötíu og tveimur
+72	f_ft_hk_þgf	sjötíu og tveim
+72	f_ft_hk_ef	sjötíu og tveggja
+73	f_ft_kk_nf	sjötíu og þrír
+73	f_ft_kk_þf	sjötíu og þrjá
+73	f_ft_kk_þgf	sjötíu og þremur
+73	f_ft_kk_þgf	sjötíu og þrem
+73	f_ft_kk_ef	sjötíu og þriggja
+73	f_ft_kvk_nf	sjötíu og þrjár
+73	f_ft_kvk_þf	sjötíu og þrjár
+73	f_ft_kvk_þgf	sjötíu og þremur
+73	f_ft_kvk_þgf	sjötíu og þrem
+73	f_ft_kvk_ef	sjötíu og þriggja
+73	f_ft_hk_nf	sjötíu og þrjú
+73	f_ft_hk_þf	sjötíu og þrjú
+73	f_ft_hk_þgf	sjötíu og þremur
+73	f_ft_hk_þgf	sjötíu og þrem
+73	f_ft_hk_ef	sjötíu og þriggja
+74	f_ft_kk_nf	sjötíu og fjórir
+74	f_ft_kk_þf	sjötíu og fjóra
+74	f_ft_kk_þgf	sjötíu og fjórum
+74	f_ft_kk_ef	sjötíu og fjögurra
+74	f_ft_kk_ef	sjötíu og fjögra
+74	f_ft_kvk_nf	sjötíu og fjórar
+74	f_ft_kvk_þf	sjötíu og fjórar
+74	f_ft_kvk_þgf	sjötíu og fjórum
+74	f_ft_kvk_ef	sjötíu og fjögurra
+74	f_ft_kvk_ef	sjötíu og fjögra
+74	f_ft_hk_nf	sjötíu og fjögur
+74	f_ft_hk_þf	sjötíu og fjögur
+74	f_ft_hk_þgf	sjötíu og fjórum
+74	f_ft_hk_ef	sjötíu og fjögurra
+74	f_ft_hk_ef	sjötíu og fjögra
+75	f_at_af	sjötíu og fimm
+76	f_at_af	sjötíu og sex
+77	f_at_af	sjötíu og sjö
+78	f_at_af	sjötíu og átta
+79	f_at_af	sjötíu og níu
+80	f_at_af	áttatíu
+81	f_et_kk_nf	áttatíu og einn
+81	f_et_kk_þf	áttatíu og einn
+81	f_et_kk_þgf	áttatíu og einum
+81	f_et_kk_ef	áttatíu og eins
+81	f_et_kvk_nf	áttatíu og ein
+81	f_et_kvk_þf	áttatíu og eina
+81	f_et_kvk_þgf	áttatíu og einni
+81	f_et_kvk_ef	áttatíu og einnar
+81	f_et_hk_nf	áttatíu og eitt
+81	f_et_hk_þf	áttatíu og eitt
+81	f_et_hk_þgf	áttatíu og einu
+81	f_et_hk_ef	áttatíu og eins
+81	f_ft_kk_nf	áttatíu og einir
+81	f_ft_kk_þf	áttatíu og eina
+81	f_ft_kk_þgf	áttatíu og einum
+81	f_ft_kk_ef	áttatíu og einna
+81	f_ft_kvk_nf	áttatíu og einar
+81	f_ft_kvk_þf	áttatíu og einar
+81	f_ft_kvk_þgf	áttatíu og einum
+81	f_ft_kvk_ef	áttatíu og einna
+81	f_ft_hk_nf	áttatíu og ein
+81	f_ft_hk_þf	áttatíu og ein
+81	f_ft_hk_þgf	áttatíu og einum
+81	f_ft_hk_ef	áttatíu og einna
+82	f_ft_kk_nf	áttatíu og tveir
+82	f_ft_kk_þf	áttatíu og tvo
+82	f_ft_kk_þgf	áttatíu og tveimur
+82	f_ft_kk_þgf	áttatíu og tveim
+82	f_ft_kk_ef	áttatíu og tvegga
+82	f_ft_kvk_nf	áttatíu og tvær
+82	f_ft_kvk_þf	áttatíu og tvær
+82	f_ft_kvk_þgf	áttatíu og tveimur
+82	f_ft_kvk_þgf	áttatíu og tveim
+82	f_ft_kvk_ef	áttatíu og tveggja
+82	f_ft_hk_nf	áttatíu og tvö
+82	f_ft_hk_þf	áttatíu og tvö
+82	f_ft_hk_þgf	áttatíu og tveimur
+82	f_ft_hk_þgf	áttatíu og tveim
+82	f_ft_hk_ef	áttatíu og tveggja
+83	f_ft_kk_nf	áttatíu og þrír
+83	f_ft_kk_þf	áttatíu og þrjá
+83	f_ft_kk_þgf	áttatíu og þremur
+83	f_ft_kk_þgf	áttatíu og þrem
+83	f_ft_kk_ef	áttatíu og þriggja
+83	f_ft_kvk_nf	áttatíu og þrjár
+83	f_ft_kvk_þf	áttatíu og þrjár
+83	f_ft_kvk_þgf	áttatíu og þremur
+83	f_ft_kvk_þgf	áttatíu og þrem
+83	f_ft_kvk_ef	áttatíu og þriggja
+83	f_ft_hk_nf	áttatíu og þrjú
+83	f_ft_hk_þf	áttatíu og þrjú
+83	f_ft_hk_þgf	áttatíu og þremur
+83	f_ft_hk_þgf	áttatíu og þrem
+83	f_ft_hk_ef	áttatíu og þriggja
+84	f_ft_kk_nf	áttatíu og fjórir
+84	f_ft_kk_þf	áttatíu og fjóra
+84	f_ft_kk_þgf	áttatíu og fjórum
+84	f_ft_kk_ef	áttatíu og fjögurra
+84	f_ft_kk_ef	áttatíu og fjögra
+84	f_ft_kvk_nf	áttatíu og fjórar
+84	f_ft_kvk_þf	áttatíu og fjórar
+84	f_ft_kvk_þgf	áttatíu og fjórum
+84	f_ft_kvk_ef	áttatíu og fjögurra
+84	f_ft_kvk_ef	áttatíu og fjögra
+84	f_ft_hk_nf	áttatíu og fjögur
+84	f_ft_hk_þf	áttatíu og fjögur
+84	f_ft_hk_þgf	áttatíu og fjórum
+84	f_ft_hk_ef	áttatíu og fjögurra
+84	f_ft_hk_ef	áttatíu og fjögra
+85	f_at_af	áttatíu og fimm
+86	f_at_af	áttatíu og sex
+87	f_at_af	áttatíu og sjö
+88	f_at_af	áttatíu og átta
+89	f_at_af	áttatíu og níu
+90	f_at_af	níutíu
+91	f_et_kk_nf	níutíu og einn
+91	f_et_kk_þf	níutíu og einn
+91	f_et_kk_þgf	níutíu og einum
+91	f_et_kk_ef	níutíu og eins
+91	f_et_kvk_nf	níutíu og ein
+91	f_et_kvk_þf	níutíu og eina
+91	f_et_kvk_þgf	níutíu og einni
+91	f_et_kvk_ef	níutíu og einnar
+91	f_et_hk_nf	níutíu og eitt
+91	f_et_hk_þf	níutíu og eitt
+91	f_et_hk_þgf	níutíu og einu
+91	f_et_hk_ef	níutíu og eins
+91	f_ft_kk_nf	níutíu og einir
+91	f_ft_kk_þf	níutíu og eina
+91	f_ft_kk_þgf	níutíu og einum
+91	f_ft_kk_ef	níutíu og einna
+91	f_ft_kvk_nf	níutíu og einar
+91	f_ft_kvk_þf	níutíu og einar
+91	f_ft_kvk_þgf	níutíu og einum
+91	f_ft_kvk_ef	níutíu og einna
+91	f_ft_hk_nf	níutíu og ein
+91	f_ft_hk_þf	níutíu og ein
+91	f_ft_hk_þgf	níutíu og einum
+91	f_ft_hk_ef	níutíu og einna
+92	f_ft_kk_nf	níutíu og tveir
+92	f_ft_kk_þf	níutíu og tvo
+92	f_ft_kk_þgf	níutíu og tveimur
+92	f_ft_kk_þgf	níutíu og tveim
+92	f_ft_kk_ef	níutíu og tvegga
+92	f_ft_kvk_nf	níutíu og tvær
+92	f_ft_kvk_þf	níutíu og tvær
+92	f_ft_kvk_þgf	níutíu og tveimur
+92	f_ft_kvk_þgf	níutíu og tveim
+92	f_ft_kvk_ef	níutíu og tveggja
+92	f_ft_hk_nf	níutíu og tvö
+92	f_ft_hk_þf	níutíu og tvö
+92	f_ft_hk_þgf	níutíu og tveimur
+92	f_ft_hk_þgf	níutíu og tveim
+92	f_ft_hk_ef	níutíu og tveggja
+93	f_ft_kk_nf	níutíu og þrír
+93	f_ft_kk_þf	níutíu og þrjá
+93	f_ft_kk_þgf	níutíu og þremur
+93	f_ft_kk_þgf	níutíu og þrem
+93	f_ft_kk_ef	níutíu og þriggja
+93	f_ft_kvk_nf	níutíu og þrjár
+93	f_ft_kvk_þf	níutíu og þrjár
+93	f_ft_kvk_þgf	níutíu og þremur
+93	f_ft_kvk_þgf	níutíu og þrem
+93	f_ft_kvk_ef	níutíu og þriggja
+93	f_ft_hk_nf	níutíu og þrjú
+93	f_ft_hk_þf	níutíu og þrjú
+93	f_ft_hk_þgf	níutíu og þremur
+93	f_ft_hk_þgf	níutíu og þrem
+93	f_ft_hk_ef	níutíu og þriggja
+94	f_ft_kk_nf	níutíu og fjórir
+94	f_ft_kk_þf	níutíu og fjóra
+94	f_ft_kk_þgf	níutíu og fjórum
+94	f_ft_kk_ef	níutíu og fjögurra
+94	f_ft_kk_ef	níutíu og fjögra
+94	f_ft_kvk_nf	níutíu og fjórar
+94	f_ft_kvk_þf	níutíu og fjórar
+94	f_ft_kvk_þgf	níutíu og fjórum
+94	f_ft_kvk_ef	níutíu og fjögurra
+94	f_ft_kvk_ef	níutíu og fjögra
+94	f_ft_hk_nf	níutíu og fjögur
+94	f_ft_hk_þf	níutíu og fjögur
+94	f_ft_hk_þgf	níutíu og fjórum
+94	f_ft_hk_ef	níutíu og fjögurra
+94	f_ft_hk_ef	níutíu og fjögra
+95	f_at_af	níutíu og fimm
+96	f_at_af	níutíu og sex
+97	f_at_af	níutíu og sjö
+98	f_at_af	níutíu og átta
+99	f_at_af	níutíu og níu
+100	f_at_af	hundrað
+101	f_et_kk_nf	eitt hundrað og einn
+101	f_et_kk_nf	hundrað og einn
+101	f_et_kk_þf	eitt hundrað og einn
+101	f_et_kk_þf	hundrað og einn
+101	f_et_kk_þgf	eitt hundrað og einum
+101	f_et_kk_þgf	hundrað og einum
+101	f_et_kk_ef	eitt hundrað og eins
+101	f_et_kk_ef	hundrað og eins
+101	f_et_kvk_nf	eitt hundrað og ein
+101	f_et_kvk_nf	hundrað og ein
+101	f_et_kvk_þf	eitt hundrað og eina
+101	f_et_kvk_þf	hundrað og eina
+101	f_et_kvk_þgf	eitt hundrað og einni
+101	f_et_kvk_þgf	hundrað og einni
+101	f_et_kvk_ef	eitt hundrað og einnar
+101	f_et_kvk_ef	hundrað og einnar
+101	f_et_hk_nf	eitt hundrað og eitt
+101	f_et_hk_nf	hundrað og eitt
+101	f_et_hk_þf	eitt hundrað og eitt
+101	f_et_hk_þf	hundrað og eitt
+101	f_et_hk_þgf	eitt hundrað og einu
+101	f_et_hk_þgf	hundrað og einu
+101	f_et_hk_ef	eitt hundrað og eins
+101	f_et_hk_ef	hundrað og eins
+101	f_ft_kk_nf	eitt hundrað og einir
+101	f_ft_kk_nf	hundrað og einir
+101	f_ft_kk_þf	eitt hundrað og eina
+101	f_ft_kk_þf	hundrað og eina
+101	f_ft_kk_þgf	eitt hundrað og einum
+101	f_ft_kk_þgf	hundrað og einum
+101	f_ft_kk_ef	eitt hundrað og einna
+101	f_ft_kk_ef	hundrað og einna
+101	f_ft_kvk_nf	eitt hundrað og einar
+101	f_ft_kvk_nf	hundrað og einar
+101	f_ft_kvk_þf	eitt hundrað og einar
+101	f_ft_kvk_þf	hundrað og einar
+101	f_ft_kvk_þgf	eitt hundrað og einum
+101	f_ft_kvk_þgf	hundrað og einum
+101	f_ft_kvk_ef	eitt hundrað og einna
+101	f_ft_kvk_ef	hundrað og einna
+101	f_ft_hk_nf	eitt hundrað og ein
+101	f_ft_hk_nf	hundrað og ein
+101	f_ft_hk_þf	eitt hundrað og ein
+101	f_ft_hk_þf	hundrað og ein
+101	f_ft_hk_þgf	eitt hundrað og einum
+101	f_ft_hk_þgf	hundrað og einum
+101	f_ft_hk_ef	eitt hundrað og einna
+101	f_ft_hk_ef	hundrað og einna
+102	f_ft_kk_nf	eitt hundrað og tveir
+102	f_ft_kk_nf	hundrað og tveir
+102	f_ft_kk_þf	eitt hundrað og tvo
+102	f_ft_kk_þf	hundrað og tvo
+102	f_ft_kk_þgf	eitt hundrað og tveimur
+102	f_ft_kk_þgf	eitt hundrað og tveim
+102	f_ft_kk_þgf	hundrað og tveimur
+102	f_ft_kk_þgf	hundrað og tveim
+102	f_ft_kk_ef	eitt hundrað og tvegga
+102	f_ft_kk_ef	hundrað og tvegga
+102	f_ft_kvk_nf	eitt hundrað og tvær
+102	f_ft_kvk_nf	hundrað og tvær
+102	f_ft_kvk_þf	eitt hundrað og tvær
+102	f_ft_kvk_þf	hundrað og tvær
+102	f_ft_kvk_þgf	eitt hundrað og tveimur
+102	f_ft_kvk_þgf	eitt hundrað og tveim
+102	f_ft_kvk_þgf	hundrað og tveimur
+102	f_ft_kvk_þgf	hundrað og tveim
+102	f_ft_kvk_ef	eitt hundrað og tveggja
+102	f_ft_kvk_ef	hundrað og tveggja
+102	f_ft_hk_nf	eitt hundrað og tvö
+102	f_ft_hk_nf	hundrað og tvö
+102	f_ft_hk_þf	eitt hundrað og tvö
+102	f_ft_hk_þf	hundrað og tvö
+102	f_ft_hk_þgf	eitt hundrað og tveimur
+102	f_ft_hk_þgf	eitt hundrað og tveim
+102	f_ft_hk_þgf	hundrað og tveimur
+102	f_ft_hk_þgf	hundrað og tveim
+102	f_ft_hk_ef	eitt hundrað og tveggja
+102	f_ft_hk_ef	hundrað og tveggja
+103	f_ft_kk_nf	eitt hundrað og þrír
+103	f_ft_kk_nf	hundrað og þrír
+103	f_ft_kk_þf	eitt hundrað og þrjá
+103	f_ft_kk_þf	hundrað og þrjá
+103	f_ft_kk_þgf	eitt hundrað og þremur
+103	f_ft_kk_þgf	eitt hundrað og þrem
+103	f_ft_kk_þgf	hundrað og þremur
+103	f_ft_kk_þgf	hundrað og þrem
+103	f_ft_kk_ef	eitt hundrað og þriggja
+103	f_ft_kk_ef	hundrað og þriggja
+103	f_ft_kvk_nf	eitt hundrað og þrjár
+103	f_ft_kvk_nf	hundrað og þrjár
+103	f_ft_kvk_þf	eitt hundrað og þrjár
+103	f_ft_kvk_þf	hundrað og þrjár
+103	f_ft_kvk_þgf	eitt hundrað og þremur
+103	f_ft_kvk_þgf	eitt hundrað og þrem
+103	f_ft_kvk_þgf	hundrað og þremur
+103	f_ft_kvk_þgf	hundrað og þrem
+103	f_ft_kvk_ef	eitt hundrað og þriggja
+103	f_ft_kvk_ef	hundrað og þriggja
+103	f_ft_hk_nf	eitt hundrað og þrjú
+103	f_ft_hk_nf	hundrað og þrjú
+103	f_ft_hk_þf	eitt hundrað og þrjú
+103	f_ft_hk_þf	hundrað og þrjú
+103	f_ft_hk_þgf	eitt hundrað og þremur
+103	f_ft_hk_þgf	eitt hundrað og þrem
+103	f_ft_hk_þgf	hundrað og þremur
+103	f_ft_hk_þgf	hundrað og þrem
+103	f_ft_hk_ef	eitt hundrað og þriggja
+103	f_ft_hk_ef	hundrað og þriggja
+104	f_ft_kk_nf	eitt hundrað og fjórir
+104	f_ft_kk_nf	hundrað og fjórir
+104	f_ft_kk_þf	eitt hundrað og fjóra
+104	f_ft_kk_þf	hundrað og fjóra
+104	f_ft_kk_þgf	eitt hundrað og fjórum
+104	f_ft_kk_þgf	hundrað og fjórum
+104	f_ft_kk_ef	eitt hundrað og fjögurra
+104	f_ft_kk_ef	eitt hundrað og fjögra
+104	f_ft_kk_ef	hundrað og fjögurra
+104	f_ft_kk_ef	hundrað og fjögra
+104	f_ft_kvk_nf	eitt hundrað og fjórar
+104	f_ft_kvk_nf	hundrað og fjórar
+104	f_ft_kvk_þf	eitt hundrað og fjórar
+104	f_ft_kvk_þf	hundrað og fjórar
+104	f_ft_kvk_þgf	eitt hundrað og fjórum
+104	f_ft_kvk_þgf	hundrað og fjórum
+104	f_ft_kvk_ef	eitt hundrað og fjögurra
+104	f_ft_kvk_ef	eitt hundrað og fjögra
+104	f_ft_kvk_ef	hundrað og fjögurra
+104	f_ft_kvk_ef	hundrað og fjögra
+104	f_ft_hk_nf	eitt hundrað og fjögur
+104	f_ft_hk_nf	hundrað og fjögur
+104	f_ft_hk_þf	eitt hundrað og fjögur
+104	f_ft_hk_þf	hundrað og fjögur
+104	f_ft_hk_þgf	eitt hundrað og fjórum
+104	f_ft_hk_þgf	hundrað og fjórum
+104	f_ft_hk_ef	eitt hundrað og fjögurra
+104	f_ft_hk_ef	eitt hundrað og fjögra
+104	f_ft_hk_ef	hundrað og fjögurra
+104	f_ft_hk_ef	hundrað og fjögra
+105	f_at_af	eitt hundrað og fimm
+105	f_at_af	hundrað og fimm
+106	f_at_af	eitt hundrað og sex
+106	f_at_af	hundrað og sex
+107	f_at_af	eitt hundrað og sjö
+107	f_at_af	hundrað og sjö
+108	f_at_af	eitt hundrað og átta
+108	f_at_af	hundrað og átta
+109	f_at_af	eitt hundrað og níu
+109	f_at_af	hundrað og níu
+111	f_at_af	eitt hundrað og ellefu
+111	f_at_af	hundrað og ellefu
+112	f_at_af	eitt hundrað og tólf
+112	f_at_af	hundrað og tólf
+113	f_at_af	eitt hundrað og þréttán
+113	f_at_af	hundrað og þréttán
+114	f_at_af	eitt hundrað og fjórtán
+114	f_at_af	hundrað og fjórtán
+115	f_at_af	eitt hundrað og fimmtán
+115	f_at_af	hundrað og fimmtán
+116	f_at_af	eitt hundrað og sextán
+116	f_at_af	hundrað og sextán
+117	f_at_af	eitt hundrað og sautján
+117	f_at_af	hundrað og sautján
+118	f_at_af	eitt hundrað og átján
+118	f_at_af	hundrað og átján
+119	f_at_af	eitt hundrað og nítján
+119	f_at_af	hundrað og nítján
+120	f_at_af	eitt hundrað og tuttugu
+120	f_at_af	hundrað og tuttugu
+121	f_et_kk_nf	eitt hundrað tuttugu og einn
+121	f_et_kk_nf	hundrað tuttugu og einn
+121	f_et_kk_þf	eitt hundrað tuttugu og einn
+121	f_et_kk_þf	hundrað tuttugu og einn
+121	f_et_kk_þgf	eitt hundrað tuttugu og einum
+121	f_et_kk_þgf	hundrað tuttugu og einum
+121	f_et_kk_ef	eitt hundrað tuttugu og eins
+121	f_et_kk_ef	hundrað tuttugu og eins
+121	f_et_kvk_nf	eitt hundrað tuttugu og ein
+121	f_et_kvk_nf	hundrað tuttugu og ein
+121	f_et_kvk_þf	eitt hundrað tuttugu og eina
+121	f_et_kvk_þf	hundrað tuttugu og eina
+121	f_et_kvk_þgf	eitt hundrað tuttugu og einni
+121	f_et_kvk_þgf	hundrað tuttugu og einni
+121	f_et_kvk_ef	eitt hundrað tuttugu og einnar
+121	f_et_kvk_ef	hundrað tuttugu og einnar
+121	f_et_hk_nf	eitt hundrað tuttugu og eitt
+121	f_et_hk_nf	hundrað tuttugu og eitt
+121	f_et_hk_þf	eitt hundrað tuttugu og eitt
+121	f_et_hk_þf	hundrað tuttugu og eitt
+121	f_et_hk_þgf	eitt hundrað tuttugu og einu
+121	f_et_hk_þgf	hundrað tuttugu og einu
+121	f_et_hk_ef	eitt hundrað tuttugu og eins
+121	f_et_hk_ef	hundrað tuttugu og eins
+121	f_ft_kk_nf	eitt hundrað tuttugu og einir
+121	f_ft_kk_nf	hundrað tuttugu og einir
+121	f_ft_kk_þf	eitt hundrað tuttugu og eina
+121	f_ft_kk_þf	hundrað tuttugu og eina
+121	f_ft_kk_þgf	eitt hundrað tuttugu og einum
+121	f_ft_kk_þgf	hundrað tuttugu og einum
+121	f_ft_kk_ef	eitt hundrað tuttugu og einna
+121	f_ft_kk_ef	hundrað tuttugu og einna
+121	f_ft_kvk_nf	eitt hundrað tuttugu og einar
+121	f_ft_kvk_nf	hundrað tuttugu og einar
+121	f_ft_kvk_þf	eitt hundrað tuttugu og einar
+121	f_ft_kvk_þf	hundrað tuttugu og einar
+121	f_ft_kvk_þgf	eitt hundrað tuttugu og einum
+121	f_ft_kvk_þgf	hundrað tuttugu og einum
+121	f_ft_kvk_ef	eitt hundrað tuttugu og einna
+121	f_ft_kvk_ef	hundrað tuttugu og einna
+121	f_ft_hk_nf	eitt hundrað tuttugu og ein
+121	f_ft_hk_nf	hundrað tuttugu og ein
+121	f_ft_hk_þf	eitt hundrað tuttugu og ein
+121	f_ft_hk_þf	hundrað tuttugu og ein
+121	f_ft_hk_þgf	eitt hundrað tuttugu og einum
+121	f_ft_hk_þgf	hundrað tuttugu og einum
+121	f_ft_hk_ef	eitt hundrað tuttugu og einna
+121	f_ft_hk_ef	hundrað tuttugu og einna
+122	f_ft_kk_nf	eitt hundrað tuttugu og tveir
+122	f_ft_kk_nf	hundrað tuttugu og tveir
+122	f_ft_kk_þf	eitt hundrað tuttugu og tvo
+122	f_ft_kk_þf	hundrað tuttugu og tvo
+122	f_ft_kk_þgf	eitt hundrað tuttugu og tveimur
+122	f_ft_kk_þgf	eitt hundrað tuttugu og tveim
+122	f_ft_kk_þgf	hundrað tuttugu og tveimur
+122	f_ft_kk_þgf	hundrað tuttugu og tveim
+122	f_ft_kk_ef	eitt hundrað tuttugu og tvegga
+122	f_ft_kk_ef	hundrað tuttugu og tvegga
+122	f_ft_kvk_nf	eitt hundrað tuttugu og tvær
+122	f_ft_kvk_nf	hundrað tuttugu og tvær
+122	f_ft_kvk_þf	eitt hundrað tuttugu og tvær
+122	f_ft_kvk_þf	hundrað tuttugu og tvær
+122	f_ft_kvk_þgf	eitt hundrað tuttugu og tveimur
+122	f_ft_kvk_þgf	eitt hundrað tuttugu og tveim
+122	f_ft_kvk_þgf	hundrað tuttugu og tveimur
+122	f_ft_kvk_þgf	hundrað tuttugu og tveim
+122	f_ft_kvk_ef	eitt hundrað tuttugu og tveggja
+122	f_ft_kvk_ef	hundrað tuttugu og tveggja
+122	f_ft_hk_nf	eitt hundrað tuttugu og tvö
+122	f_ft_hk_nf	hundrað tuttugu og tvö
+122	f_ft_hk_þf	eitt hundrað tuttugu og tvö
+122	f_ft_hk_þf	hundrað tuttugu og tvö
+122	f_ft_hk_þgf	eitt hundrað tuttugu og tveimur
+122	f_ft_hk_þgf	eitt hundrað tuttugu og tveim
+122	f_ft_hk_þgf	hundrað tuttugu og tveimur
+122	f_ft_hk_þgf	hundrað tuttugu og tveim
+122	f_ft_hk_ef	eitt hundrað tuttugu og tveggja
+122	f_ft_hk_ef	hundrað tuttugu og tveggja

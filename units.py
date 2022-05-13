@@ -1,13 +1,16 @@
 verb = {
     "f_et_kk_nf": "er",
+    "f_et_hk_nf": "er",
+    "f_et_kvk_nf": "er",
+    "f_et_kk_þf": "er",
+    "f_ft_hk_nf": "eru",
+    "f_ft_kvk_nf": "eru",
     "f_ft_kk_nf": "eru",
     "f_at_af": "eru",
-    "f_et_hk_nf": "eru",
-    "f_ft_hk_nf": "eru",
 }
 distance_convert_to = {
     "fet": "mörg",
-    "tommur": "margir",
+    "tommur": "margar",
     "mílur": "margar",
     "millimetrar": "margir",
     "sentimetrar": "margir",
@@ -15,52 +18,87 @@ distance_convert_to = {
     "kílómetrar": "margir",
 }
 
-distance_units = {
+distance_units_s1 = {
     "millimetri": {
         "f_et_kk_nf": "millimetri",
         "f_ft_kk_nf": "millimetrar",
         "f_at_af": "millimetrar",
-        "f_et_hk_nf": "millimetrar",
-        "f_ft_hk_nf": "millimetrar",
+        # "f_et_kk_þf": "millimetri", # Gefur það sama og f_et_kk_nf
     },
     "sentimetri": {
         "f_et_kk_nf": "sentimetri",
         "f_ft_kk_nf": "sentimetrar",
         "f_at_af": "sentimetrar",
-        "f_et_hk_nf": "metrar",
-        "f_ft_hk_nf": "sentimetrar",
     },
     "metri": {
         "f_et_kk_nf": "metri",
         "f_ft_kk_nf": "metrar",
         "f_at_af": "metrar",
-        "f_et_hk_nf": "metrar",
-        "f_ft_hk_nf": "metrar",
     },
     "kílómetri": {
         "f_et_kk_nf": "kílómetri",
         "f_ft_kk_nf": "kílómetrar",
         "f_at_af": "kílómetrar",
-        "f_et_hk_nf": "kílómetrar",
-        "f_ft_hk_nf": "kílómetrar",
     },
     "míla": {
         "f_et_kvk_nf": "míla",
-        "f_ft_kk_nf": "mílur",
+        "f_ft_kvk_nf": "mílur",
         "f_at_af": "mílur",
-        "f_et_hk_nf": "mílur",
-        "f_ft_hk_nf": "mílur",
     },
     "tomma": {
         "f_et_kvk_nf": "tomma",
-        "f_ft_kk_nf": "tommur",
+        "f_ft_kvk_nf": "tommur",
         "f_at_af": "tommur",
-        "f_et_hk_nf": "tommur",
-        "f_ft_hk_nf": "tommur",
     },
     "fet": {
         "f_et_hk_nf": "fet",
-        "f_ft_hk_nf": "fet",
         "f_at_af": "fet",
     },
 }
+distance_units_s2 = {
+    "millimetri": {
+        "f_et_kk_þgf": "millimetra",
+        "f_ft_kk_þgf": "millimetrum",
+        "f_at_af": "millimetrum",
+        "_": "millimetrar",
+    },
+    "sentimetri": {
+        "f_et_kk_þgf": "sentimetra",
+        "f_ft_kk_þgf": "sentimetrum",
+        "f_at_af": "sentimetrum",
+        "_": "sentimetrar",
+    },
+    "metri": {
+        "f_et_kk_þgf": "metra",
+        "f_ft_kk_þgf": "metrum",
+        "f_at_af": "metrum",
+        "_": "metrar",
+    },
+    "kílómetri": {
+        "f_et_kk_þgf": "kílómetra",
+        "f_ft_kk_þgf": "kílómetrum",
+        "f_at_af": "kílómetrum",
+        "_": "kílómetrar",
+    },
+    "míla": {
+        "f_et_kvk_þgf": "mílu",
+        "f_ft_kvk_þgf": "mílum",
+        "f_at_af": "mílum",
+        "_": "mílur",
+    },
+    "tomma": {
+        "f_et_kvk_þgf": "tommu",
+        "f_ft_kvk_þgf": "tommum",
+        "f_at_af": "tommum",
+        "_": "tommur",
+    },
+    "fet": {
+        "f_et_hk_þgf": "feti",
+        "f_ft_hk_þgf": "fetum",
+        "f_at_af": "fetum",
+        "_": "fet",
+    },
+}
+
+
+volume_unit_s1 = {}
