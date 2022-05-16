@@ -1,3 +1,6 @@
+from os import umask
+
+
 base = {
     (1, "f_et_kk_nf"): "einn",
     (1, "f_et_kk_þf"): "einn",
@@ -264,10 +267,8 @@ def create_fill_in_list(a, b):
     return to_return
 
 
-def generate_numbers():
-    """
-    A funciton for all the loops
-    """
+def generate_whole_numbers():
+    """ """
     with open("numbers.tsv", "w") as f_out:
         for n, f in create_fill_in_list(1, 1000):
             n, f, nums = get_number(n, f)
@@ -275,5 +276,26 @@ def generate_numbers():
                 f_out.write(f"{n}\t{f}\t{line}\n")
 
 
+def create_fill_in_list_fractions(a, b, d):
+    """
+    Returns a list with (number, inflection) items for all possible numbers in the given range.
+    """
+    from numpy import arange
+
+    for n in arange(a, b, d):
+        print(n)
+
+    return []
+
+
+def generate_fractions():
+    """ """
+    with open("fractions.tsv", "w") as f_out:
+        for line in create_fill_in_list_fractions(1, 10, 0.1):
+            f_out.write()
+            pass
+
+
 if __name__ == "__main__":
-    generate_numbers()
+    # generate_whole_numbers()
+    generate_fractions()
