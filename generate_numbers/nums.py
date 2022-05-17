@@ -1,7 +1,8 @@
-from os import umask
+from traceback import print_tb
 
 
 base = {
+    (0, "f_at_af"): "núll",
     (1, "f_et_kk_nf"): "einn",
     (1, "f_et_kk_þf"): "einn",
     (1, "f_et_kk_þgf"): "einum",
@@ -88,6 +89,35 @@ base = {
     (100, "f_at_af"): "hundrað",
     (1000, "f_at_af"): "þúsund",
     (1000000, "f_at_af"): "milljón",
+}
+
+
+half = {
+    "f_at_af": "hálfur",
+    "f_et_kk_nf": "hálfur",
+    "f_et_kk_þf": "hálfan",
+    "f_et_kk_þgf": "hálfum",
+    "f_et_kk_ef": "hálfs",
+    "f_et_kvk_nf": "hálf",
+    "f_et_kvk_þf": "hálfa",
+    "f_et_kvk_þgf": "hálfri",
+    "f_et_kvk_ef": "hálfrar",
+    "f_et_hk_nf": "hálft",
+    "f_et_hk_þf": "hálft",
+    "f_et_hk_þgf": "hálfu",
+    "f_et_hk_ef": "hálfs",
+    "f_ft_kk_nf": "hálfur",
+    "f_ft_kk_þf": "hálfan",
+    "f_ft_kk_þgf": "hálfum",
+    "f_ft_kk_ef": "hálfs",
+    "f_ft_kvk_nf": "hálf",
+    "f_ft_kvk_þf": "hálfa",
+    "f_ft_kvk_þgf": "hálfri",
+    "f_ft_kvk_ef": "hálfrar",
+    "f_ft_hk_nf": "hálfs",
+    "f_ft_hk_þf": "hálft",
+    "f_ft_hk_þgf": "hálfu",
+    "f_ft_hk_ef": "hálfs",
 }
 
 
@@ -206,7 +236,14 @@ def get_number(n, f):
     """
     Diverts requests to the correct function
     """
-    if (
+    if n < 1:
+        print(n)
+        return get_fraction_less_than_zero(n, f)
+    elif n % int(n) == 0 and isinstance(n, float):
+        n = int(n)
+    if isinstance(n, float):
+        return get_fraction(n, f)
+    elif (
         n in [x for x in range(1, 20)]
         or n in [x for x in range(20, 101, 10)]
         or n in [1000, 1000000]
@@ -216,6 +253,45 @@ def get_number(n, f):
         return nums_20_99(n, f)
     elif n in [x for x in range(100, 1000)]:
         return nums_100_999(n, f)
+
+
+def get_fraction_less_than_zero(n, f):
+    """ """
+
+    n2 = int(str(n).split(".")[1])
+
+    num = [f"núll komma {x}" for x in get_number(n2, f)[2]]
+    return n, f, num
+
+
+def get_fraction(n, f):
+    """ """
+    n1 = int(str(n).split(".")[0])
+    n2 = int(str(n).split(".")[1])
+    to_return = []
+
+    if n1 < 5 and n2 < 5:
+        # To account for that we only use the singular case of 1.
+        if (n1, f) not in base:
+            _n, _f, nums_1 = get_number(n1, f.replace("et", "ft"))
+        else:
+            _n, _f, nums_1 = get_number(n1, f)
+        _n, _f, nums_2 = get_number(n2, f)
+
+        pass
+    else:
+        print(n, f, n1, n2)
+        if n1 > 4:
+            _n, _f, nums_1 = get_number(n1, "f_at_af")
+            _n, _f, nums_2 = get_number(n2, f)
+
+        else:
+            _n, _f, nums_1 = get_number(n1, f)
+            _n, _f, nums_2 = get_number(n2, "f_at_af")
+
+    to_return.append(f"{nums_1[0]} komma {nums_2[0]}")
+
+    return n, f, to_return
 
 
 def create_fill_in_list(a, b):
@@ -263,7 +339,6 @@ def create_fill_in_list(a, b):
             last_num = int(str(n)[-1])
             for f in [x[1] for x in base.keys() if x[0] == last_num]:
                 to_return.append([n, f])
-
     return to_return
 
 
@@ -280,20 +355,53 @@ def create_fill_in_list_fractions(a, b, d):
     """
     Returns a list with (number, inflection) items for all possible numbers in the given range.
     """
-    from numpy import arange
+    import numpy as np
 
-    for n in arange(a, b, d):
-        print(n)
+    to_return = []
+    for n in [np.round(x, 2) for x in np.arange(a, b, d)]:
+        if n % int(n) == 0:
+            continue
 
-    return []
+        n1 = int(str(n).split(".")[0])
+        d = int(str(n)[-1])
+        if d in [1, 2, 3, 4]:
+            for f in [x[1] for x in base.keys() if x[0] == d]:
+                # The plural form for 1 is not used in fractions
+                if d == 1 and "ft" in f:
+                    continue
+                to_return.append([n, f])
+        else:
+            for f in [x[1] for x in base.keys() if x[0] == n1]:
+                if n1 == 1 and "ft" in f:
+                    continue
+                to_return.append([n, f])
+
+    return to_return
+
+
+def add_half(n, f):
+    """
+    Gerum ráð fyrir að það er bara kallað í þetta fall þegar talan er x-hálfur
+    Segjum að n=1,5 þá skilar fallið til baka "einn og hálfur".
+    """
+    n1 = int(str(n).split(".")[0])
+    if n1 == 0:
+        return half[f]
+
+    else:
+        return f"{get_number(n1, f)[2][0]} og {half[f]}"
 
 
 def generate_fractions():
     """ """
-    with open("fractions.tsv", "w") as f_out:
-        for line in create_fill_in_list_fractions(1, 10, 0.1):
-            f_out.write()
-            pass
+    with open("fractions.tsv", "w") as f_out, open("fill_in_fractions", "w") as f_out2:
+        for n, f in create_fill_in_list_fractions(0.1, 10, 0.1):
+            f_out2.write(f"{n}\t{f}\n")
+            n, f, nums = get_number(n, f)
+            if int(str(n).split(".")[-1]) == 5:
+                nums += [add_half(n, f)]
+            for line in nums:
+                f_out.write(f"{n}\t{f}\t{line}\n")
 
 
 if __name__ == "__main__":
