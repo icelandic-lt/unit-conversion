@@ -71,7 +71,7 @@ base = {
     (10, "f_at_af"): "tíu",
     (11, "f_at_af"): "ellefu",
     (12, "f_at_af"): "tólf",
-    (13, "f_at_af"): "þréttán",
+    (13, "f_at_af"): "þrettán",
     (14, "f_at_af"): "fjórtán",
     (15, "f_at_af"): "fimmtán",
     (16, "f_at_af"): "sextán",
