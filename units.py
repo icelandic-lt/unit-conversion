@@ -8,6 +8,8 @@ verb = {
     "f_ft_kk_nf": "eru",
     "f_at_af": "eru",
 }
+
+
 distance_convert_to = {
     "fet": "mörg",
     "tommur": "margar",

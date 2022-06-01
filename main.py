@@ -63,9 +63,9 @@ def generate_sentances():
                         if int(str(n)[-1]) != 1 or "_ft_" not in f:
                             # Breyttu 100 metrum í kílómetra
                             s3 = f"Breyttu {number} {unit_from[f]} í {unit_to}"
-                        # if int(str(n)[-1]) != 1 and "_et_" not in f:
-                        #     s3 = f"Breyttu {number} {unit_from[f]} í {unit_to}"
-                        to_return.append([n, f, s3])
+                            # if int(str(n)[-1]) != 1 and "_et_" not in f:
+                            #     s3 = f"Breyttu {number} {unit_from[f]} í {unit_to}"
+                            to_return.append([n, f, s3])
 
             for unit, unit_from in volume_unit_s1.items():
                 for unit_to, p in volume_convert_to.items():
@@ -74,7 +74,7 @@ def generate_sentances():
                     if int(str(n)[-1]) != 1 or "_ft_" not in f:
 
                         if f in unit_from and unit_to not in unit_from.values():
-                            # Hvað er/eru 10 lítrar margar 
+                            # Hvað er/eru 10 lítrar margar
                             s1 = (
                                 f"Hvað {verb[f]} {number} {unit_from[f]} {p} {unit_to}?"
                             )
@@ -109,7 +109,7 @@ def main():
     with open("out.tsv", "w") as f_out:
         for line in sentences:
             f_out.write(line[0] + "\t" + line[1] + "\t" + line[2] + "\n")
-    sanity_check(sentences)
+    # sanity_check(sentences)
     print(len(sentences))
 
 
