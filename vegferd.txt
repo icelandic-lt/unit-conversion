@@ -1,6 +1,0 @@
-
-
-1. setja upp grunn að öllum frumtölum
-2. Skrifa fall sem býr til allar mögulegar frumtölur
-3. Setja upp grunn að setningum
-4. Eitthvað blah
