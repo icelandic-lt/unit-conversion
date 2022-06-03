@@ -92,9 +92,6 @@ base = {
 }
 
 
-
-
-
 half = {
     "f_at_af": "hálfur",
     "f_et_kk_nf": "hálfur",
