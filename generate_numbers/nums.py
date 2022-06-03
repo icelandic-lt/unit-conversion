@@ -92,6 +92,9 @@ base = {
 }
 
 
+
+
+
 half = {
     "f_at_af": "hálfur",
     "f_et_kk_nf": "hálfur",
@@ -106,18 +109,18 @@ half = {
     "f_et_hk_þf": "hálft",
     "f_et_hk_þgf": "hálfu",
     "f_et_hk_ef": "hálfs",
-    "f_ft_kk_nf": "hálfur",
-    "f_ft_kk_þf": "hálfan",
+    "f_ft_kk_nf": "hálfir",
+    "f_ft_kk_þf": "hálfa",
     "f_ft_kk_þgf": "hálfum",
-    "f_ft_kk_ef": "hálfs",
-    "f_ft_kvk_nf": "hálf",
-    "f_ft_kvk_þf": "hálfa",
-    "f_ft_kvk_þgf": "hálfri",
-    "f_ft_kvk_ef": "hálfrar",
-    "f_ft_hk_nf": "hálfs",
-    "f_ft_hk_þf": "hálft",
-    "f_ft_hk_þgf": "hálfu",
-    "f_ft_hk_ef": "hálfs",
+    "f_ft_kk_ef": "hálfra",
+    "f_ft_kvk_nf": "hálfar",
+    "f_ft_kvk_þf": "hálfar",
+    "f_ft_kvk_þgf": "hálfum",
+    "f_ft_kvk_ef": "hálfra",
+    "f_ft_hk_nf": "hálf",
+    "f_ft_hk_þf": "hálf",
+    "f_ft_hk_þgf": "hálfum",
+    "f_ft_hk_ef": "hálfra",
 }
 
 
