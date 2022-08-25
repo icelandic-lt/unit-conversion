@@ -1,0 +1,46 @@
+1	f_et_kk_nf	einn
+1	f_et_kk_þf	einn
+1	f_et_kk_þgf	einum
+1	f_et_kk_ef	eins
+1	f_et_kvk_nf	ein
+1	f_et_kvk_þf	
+1	f_ft_kvk_nf	einar
+1	f_ft_kvk_þf	einar
+1	f_ft_kvk_þgf	einum
+3	f_ft_kvk_ef	þriggja
+3	f_ft_hk_nf	þrjú
+3	f_ft_hk_þf	þrjú
+3	f_ft_hk_þgf	þremur
+3	f_ft_hk_þgf	
+4	f_ft_kvk_nf	fjórar
+4	f_ft_kvk_þf	fjórar
+4	f_ft_kvk_þgf	fjórum
+4	f_ft_kvk_ef	fjögurra
+4	f_ft_kvk_ef	fjögra
+4	f_ft_hk_nf	fjögur
+4	f_ft_hk_þf	fjögur
+4	f_ft_hk_þgf	fjórum
+4	f_ft_hk_ef	fjögurra
+21	f_et_hk_nf	tuttugu og eitt
+21	f_et_hk_þf	tuttugu og eitt
+21	f_et_hk_þgf	tuttugu og einu
+21	f_et_hk_ef	tuttugu og eins
+21	f_ft_kk_nf	tuttugu og einir
+22	f_ft_kk_ef	tuttugu og tvegga
+22	f_ft_kvk_nf	tuttugu og tvær
+23	f_ft_kvk_nf	tuttugu og þrjár
+23	f_ft_kvk_þf	tuttugu og þrjár
+23	f_ft_kvk_þgf	tuttugu og þremur
+23	f_ft_kvk_þgf	tuttugu og þrem
+23	f_ft_kvk_ef	tuttugu og þriggja
+23	f_ft_hk_nf	tuttugu og þrjú
+23	f_ft_hk_þf	tuttugu og þrjú
+23	f_ft_hk_þgf	tuttugu og þremur
+23	f_ft_hk_þgf	tuttugu og þrem
+23	f_ft_hk_ef	tuttugu og þriggja
+24	f_ft_kk_nf	tuttugu og fjórir
+24	f_ft_kk_þf	tuttugu og fjóra
+31	f_et_kvk_þf	þrjátíu og eina
+104	f_ft_kk_þf	eitt hundrað og fjóra
+104	f_ft_kk_þf	hundrað og fjóra
+104	f_ft_kk_þgf	eitt hundrað og fjórum
