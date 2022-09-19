@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 
+from cmath import pi
 import logging, os, sys
 
 from unitconversion.utils import (
@@ -17,17 +18,16 @@ from unitconversion.units import *
 def mix(units: list) -> list:
     """
     Takes in a list of dicts containing the convertion units and creates
-    a list of compintaion of units.
-
-    We ignore line were same unit is in the combination.
+    a list of all combinations of units.  We ignore line were same unit is on
+    both sides of the combination.
     """
-    to_return = set()
+    to_return = []
     for idx_from, line_from in enumerate(units):
         for idx_to, line_to in enumerate(units):
             if idx_from != idx_to:
                 for conj_from, word_from in line_from.items():
                     for conj_to, word_to in line_to.items():
-                        to_return.add(((conj_from, word_from), (conj_to, word_to)))
+                        to_return.append([[conj_from, word_from], [conj_to, word_to]])
     return to_return
 
 
@@ -45,126 +45,173 @@ def generate_sentances_integers(n: int, f: str, number: str):
     ]
     """
 
-    to_return = set()
+    to_return = []
     logging.debug(f"n, f: {n,f}")
     logging.debug(f"Number: {number}")
-    # Weight
 
     if int(str(n)[-1]) != 1 or "ft_" not in f:
         for conj_word_from, conj_word_to in mix(weight_units):
-            for s in sentence_rule_1(
+            s = sentence_rule_1(
                 f,
                 number,
                 conj_word_from,
                 conj_word_to,
-            ):
-                # to_return.add((n, f, s))
-                print(s)
+            )
+            if s:
+                to_return.append((n, f, s))
+            # print(s)
 
-    # Volume
-    for idx_from, line_from in enumerate(volume_units):
-        for idx_to, line_to in enumerate(volume_units):
-            if (int(str(n)[-1]) != 1 or "ft_" not in f) and idx_from != idx_to:
-                for conj_from, word_from in line_from.items():
-    for s in volume_s1(
-        f,
-        number,
-        conj_from,
-        word_from,
-        line_to,
-    ):
-        to_return.add((n, f, s))
+        for conj_word_from, conj_word_to in mix(volume_units):
+            s = sentence_rule_2(
+                f,
+                number,
+                conj_word_from,
+                conj_word_to,
+            )
+            if s:
+                to_return.append((n, f, s))
+            # print(s)
 
-        print(s)
-    for s in volume_s2(
-        f,
-        number,
-        conj_from,
-        word_from,
-        line_to,
-    ):
-        to_return.add((n, f, s))
+            s = sentence_rule_3(
+                f,
+                number,
+                conj_word_from,
+                conj_word_to,
+            )
+            if s:
+                to_return.append((n, f, s))
+            # print(s)
 
-        print(s)
+        for conj_word_from, conj_word_to in mix(distanace_units):
+            s = sentence_rule_1(
+                f,
+                number,
+                conj_word_from,
+                conj_word_to,
+            )
+            if s:
+                to_return.append((n, f, s))
+            # print(s)
 
-    # Distance
-    for idx_from, line_from in enumerate(distanace_units):
-        for idx_to, line_to in enumerate(distanace_units):
-            if (int(str(n)[-1]) != 1 or "ft_" not in f) and idx_from != idx_to:
-                for conj_from, word_from in line_from.items():
-                    for s in sentence_rule_1(
-                        f,
-                        number,
-                        conj_from,
-                        word_from,
-                        line_to,
-                    ):
-                        to_return.add((n, f, s))
+            s = sentence_rule_2(
+                f,
+                number,
+                conj_word_from,
+                conj_word_to,
+            )
+            # print(s)
+            if s:
+                to_return.append((n, f, s))
 
-                        print(s)
+            s = sentence_rule_4(
+                f,
+                number,
+                conj_word_from,
+                conj_word_to,
+            )
+            # print(s)
+            if s:
+                to_return.append((n, f, s))
 
-                    to_return.add((n, f, s))
-                    for s in distance_s2(
-                        f,
-                        number,
-                        conj_from,
-                        word_from,
-                        line_to,
-                    ):
-                        print(s)
-                        to_return.add((n, f, s))
+        for conj_word_from, conj_word_to in mix(currency_units):
+            s = sentence_rule_1(
+                f,
+                number,
+                conj_word_from,
+                conj_word_to,
+            )
+            if s:
+                to_return.append((n, f, s))
+            # print(s)
 
-                    for s in distance_s3(
-                        f,
-                        number,
-                        conj_from,
-                        word_from,
-                        line_to,
-                    ):
-                        print(s)
-                        to_return.add((n, f, s))
+            s = sentence_rule_2(
+                f,
+                number,
+                conj_word_from,
+                conj_word_to,
+            )
+            # print(s)
+            if s:
+                to_return.append((n, f, s))
+            s = sentence_rule_6(
+                f,
+                number,
+                conj_word_from,
+                conj_word_to,
+            )
+            # print(s)
+            if s:
+                to_return.append((n, f, s))
 
-    # Currencies
-    for idx_from, line_from in enumerate(currency_units):
-        for idx_to, line_to in enumerate(currency_units):
-            if (int(str(n)[-1]) != 1 or "ft_" not in f) and idx_from != idx_to:
-                for conj_from, word_from in line_from.items():
-                    for s in currency_s1(
-                        f,
-                        number,
-                        conj_from,
-                        word_from,
-                        line_to,
-                    ):
-                        # print(s)
-                        to_return.add((n, f, s))
-                    for s in currency_s2(
-                        f,
-                        number,
-                        conj_from,
-                        word_from,
-                        line_to,
-                    ):
-                        # print(s)
-                        to_return.add((n, f, s))
-                    for s in currency_s3(
-                        f,
-                        number,
-                        conj_from,
-                        word_from,
-                        line_to,
-                    ):
-                        # print(s)
-                        to_return.add((n, f, s))
+            s = sentence_rule_7(
+                f,
+                number,
+                conj_word_from,
+                conj_word_to,
+            )
+            # print(s)
+            if s:
+                to_return.append((n, f, s))
 
-    # This dosen't take in any number and will therefore
-    # be adding the same sentences over and over to the set.
-    # I should just run this once seperetaly from the rest
-    # for s in currency_s4(conj_from, ftet_from, word_from, line_to):
-    #     print(s)
-    #     to_return.add(s)
+        # This dosen't take in any number and will therefore
+        # be adding the same sentences over and over to the set.
+        # I should just run this once seperetaly from the rest
+        # but as we are adding it to a set...
+        # s = sentence_rule_8(conj_word_from, conj_word_to):
+        #     # print(s)
+        #     to_return.append(s)
+        for conj_word_from, conj_word_to in mix(weight_units):
+            s = sentence_rule_1(
+                f,
+                number,
+                conj_word_from,
+                conj_word_to,
+            )
+            if s:
+                to_return.append((n, f, s))
+            # print(s)
 
-    return to_return
+            s = sentence_rule_2(
+                f,
+                number,
+                conj_word_from,
+                conj_word_to,
+            )
+            if s:
+                to_return.append((n, f, s))
+            # print(s)
+
+            s = sentence_rule_3(
+                f,
+                number,
+                conj_word_from,
+                conj_word_to,
+            )
+            if s:
+                to_return.append((n, f, s))
+            # print(s)
+
+            s = sentence_rule_4(
+                f,
+                number,
+                conj_word_from,
+                conj_word_to,
+            )
+            if s:
+                to_return.append((n, f, s))
+            # print(s)
+
+            s = sentence_rule_6(
+                f,
+                number,
+                conj_word_from,
+                conj_word_to,
+            )
+            if s:
+                to_return.append((n, f, s))
+            # print(s)
+
+        return to_return
 
 
 def generate_sentances_fractions(n: float, f: str, number: str):
@@ -261,31 +308,42 @@ if __name__ == "__main__":
     FORMAT = "[%(filename)s:%(lineno)s - %(funcName)15s()] %(message)s"
     logging.basicConfig(level=logging.WARNING, format=FORMAT)
 
-    output_file = "output/sentences_test.tsv"
+    output_file = "output/sentences_16sept.tsv"
 
     nums = sys.argv[1]
-    numbers = load_numbers(file=nums)
+    # numbers = load_numbers(file=nums)
+
+    # logging.info(f"Using {len(numbers)} numbers")
+    # if "." in numbers[0][0]:
+    #     logging.info(f"Generating fractions")
+    #     sentences = parallel_process(generate_sentances_fractions, numbers)
+    # else:
+    #     logging.info(f"Generating integers")
+    #     sentences = parallel_process(generate_sentances_integers, numbers)
+
+    # logging.info(f"Generated {len(sentences)} sentences")
+    # save_to_file(sentences, output_file)
+
+    # for line in numbers:
+    #     generate_sentances_integers(*line)
 
     # sentences = generate_sentances_fractions(1.9, "ft_hk_nf", "eitt komma níu")
     # sentences = generate_sentances_fractions(1.3, "ft_kk_nf", "einn komma þrír")
 
     # sentences = generate_sentances_fractions(1.4, "ft_kk_nf", "einn komma fjórir")
     # sentences = generate_sentances_integers(5, "at_af", "fimm")
-    # print(sentences)
-    # logging.info(f"Using {len(numbers)} numbers")
-    # if "." in numbers[0][0]:
-    #     logging.info(f"Generating fractions")
-    #     sentences = parallel_process(generate_sentances_fractions, numbers)
-    # else:
-    #     logging.info(f"Generating initegers")
-    #     sentences = parallel_process(generate_sentances_integers, numbers)
 
-    for line in numbers:
-        generate_sentances_integers(*line)
-
-    # logging.info(f"Generated {len(sentences)} sentences")
-    # save_to_file(sentences, output_file)
-
-    # logging.info(f"Saved to {output_file}")
     # test_output_with_GreynirCorrect(sentences, output_file)
     # sanity_check(sentences)
+
+    # Generate formatted test data
+    test_set = []
+    for line in [
+        # [1, "et_kk_nf", "einn"],
+        [2, "ft_kvk_þgf", "tveim"],
+        # [3, "ft_kk_þgf", "þremur"],
+        # [5, "at_af", "fimm"],
+    ]:
+        test_set.append((line, generate_sentances_integers(*line)))
+    for line in test_set:
+        print(line)

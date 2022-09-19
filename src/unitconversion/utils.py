@@ -102,3 +102,4 @@ def save_to_file(sentences, file="out.tsv"):
         for line in sentences:
 
             f_out.write(str(line[0]) + "\t" + line[1] + "\t" + line[2] + "\n")
+    logging.info(f"Saved to {file}")
