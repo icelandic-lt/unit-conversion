@@ -1,4 +1,4 @@
 from unitconversion.main import (
-    generate_sentances_integers,
-    generate_sentances_fractions,
+    generate_sentences_integers,
+    generate_sentences_integers,
 )
