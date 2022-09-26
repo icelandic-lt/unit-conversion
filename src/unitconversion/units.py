@@ -18,7 +18,6 @@ verb = {
     "ft_kvk_nf": "eru",
     "ft_kk_nf": "eru",
     "at_af": "eru",
-
 }
 
 
