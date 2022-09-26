@@ -1,5 +1,3 @@
-from locale import currency
-
 verb_simple = {"ft": "eru", "et": "er"}
 adj_many = {
     "ft_kk_nf": "margir",
@@ -20,11 +18,13 @@ verb = {
     "ft_kvk_nf": "eru",
     "ft_kk_nf": "eru",
     "at_af": "eru",
+
 }
 
 
 volume_units = [
     {
+        "et_kk_þf": "lítra",
         "et_kk_þgf": "lítra",
         "ft_kk_þgf": "lítrum",
         "et_kk_nf": "lítri",
@@ -32,6 +32,7 @@ volume_units = [
         "ft_kk_þf": "lítra",
     },
     {
+        "et_kk_þf": "desilítra",
         "et_kk_þgf": "desilítra",
         "ft_kk_þgf": "desilítrum",
         "et_kk_nf": "desilítri",
@@ -39,6 +40,7 @@ volume_units = [
         "ft_kk_þf": "desilítra",
     },
     {
+        "et_kk_þf": "sentilítra",
         "et_kk_þgf": "sentilítra",
         "ft_kk_þgf": "sentilítrum",
         "et_kk_nf": "sentilítri",
@@ -46,6 +48,7 @@ volume_units = [
         "ft_kk_þf": "sentilítra",
     },
     {
+        "et_kk_þf": "rúmmetra",
         "et_kk_þgf": "rúmmetra",
         "ft_kk_þgf": "rúmmetrum",
         "et_kk_nf": "rúmmetri",
@@ -53,6 +56,7 @@ volume_units = [
         "ft_kk_þf": "rúmmetra",
     },
     {
+        "et_kk_þf": "rúmsentimetra",
         "et_kk_þgf": "rúmsentimetra",
         "ft_kk_þgf": "rúmsentimetrum",
         "et_kk_nf": "rúmsentímetri",
@@ -60,6 +64,7 @@ volume_units = [
         "ft_kk_þf": "rúmsentímetra",
     },
     {
+        "et_kk_þf": "pela",
         "et_kk_þgf": "pela",
         "ft_kk_þgf": "pelum",
         "et_kk_nf": "peli",
@@ -67,6 +72,7 @@ volume_units = [
         "ft_kk_þf": "pela",
     },
     {
+        "et_kk_þf": "bolla",
         "et_kk_þgf": "bolla",
         "ft_kk_þgf": "bollum",
         "et_kk_nf": "bolli",
@@ -74,6 +80,7 @@ volume_units = [
         "ft_kk_þf": "bolla",
     },
     {
+        "et_kvk_þf": "matskeið",
         "et_kvk_þgf": "matskeið",
         "ft_kvk_þgf": "matskeiðum",
         "et_kvk_nf": "matskeið",
@@ -81,6 +88,7 @@ volume_units = [
         "ft_kvk_þf": "matskeiðar",
     },
     {
+        "et_kvk_þf": "teskeið",
         "et_kvk_þgf": "teskeið",
         "ft_kvk_þgf": "teskeiðum",
         "et_kvk_nf": "teskeið",
@@ -88,13 +96,15 @@ volume_units = [
         "ft_kvk_þf": "teskeiðar",
     },
     {
-        "et_kvk_þgf": "könnu",
-        "ft_kvk_þgf": "könnum",
+        "et_kvk_þf": "únsu",
+        "et_kvk_þgf": "únsu",
+        "ft_kvk_þgf": "únsum",
         "et_kvk_nf": "únsa",
         "ft_kvk_nf": "únsur",
         "ft_kvk_þf": "únsur",
     },
     {
+        "et_kvk_þf": "könnu",
         "et_kvk_þgf": "könnu",
         "ft_kvk_þgf": "könnum",
         "et_kvk_nf": "kanna",
@@ -102,6 +112,7 @@ volume_units = [
         "ft_kvk_þf": "könnur",
     },
     {
+        "et_hk_þf": "pint",
         "et_hk_þgf": "pinti",
         "ft_hk_þgf": "pintum",
         "et_hk_nf": "pint",
@@ -112,36 +123,48 @@ volume_units = [
 
 weight_units = [
     {
+        "et_hk_nf": "pund",
+        "et_hk_þf": "pund",
         "et_hk_þgf": "pundi",
         "ft_hk_þgf": "pundum",
         "ft_hk_þf": "pund",
         "ft_hk_nf": "pund",
     },
     {
+        "et_hk_nf": "kílógramm",
+        "et_hk_þf": "kílógramm",
         "et_hk_þgf": "kílógrammi",
         "ft_hk_þgf": "kílógrömmum",
         "ft_hk_þf": "kílógrömm",
         "ft_hk_nf": "kílógrömm",
     },
     {
+        "et_hk_nf": "milligramm",
+        "et_hk_þf": "milligramm",
         "et_hk_þgf": "milligrammi",
         "ft_hk_þgf": "milligrömmum",
         "ft_hk_þf": "milligrömm",
         "ft_hk_nf": "milligrömm",
     },
     {
+        "et_hk_nf": "kíló",
+        "et_hk_þf": "kíló",
         "et_hk_þgf": "kílói",
         "ft_hk_þgf": "kílóum",
         "ft_hk_þf": "kíló",
         "ft_hk_nf": "kíló",
     },
     {
+        "et_hk_nf": "gramm",
+        "et_hk_þf": "gramm",
         "et_hk_þgf": "grammi",
         "ft_hk_þgf": "grömmum",
         "ft_hk_þf": "grömm",
         "ft_hk_nf": "grömm",
     },
     {
+        "et_hk_nf": "tonn",
+        "et_hk_þf": "tonn",
         "et_hk_þgf": "tonni",
         "ft_hk_þgf": "tonnum",
         "ft_hk_þf": "tonn",
@@ -154,6 +177,7 @@ heat_units = ["Celsíus", "Fahrenheit"]
 
 distanace_units = [
     {
+        "et_kk_þf": "millimetra",
         "et_kk_nf": "millimetri",
         "ft_kk_nf": "millimetrar",
         "et_kk_þgf": "millimetra",
@@ -161,6 +185,7 @@ distanace_units = [
         "ft_kk_þf": "millimetra",
     },
     {
+        "et_kk_þf": "sentimetra",
         "et_kk_nf": "sentimetri",
         "ft_kk_nf": "sentimetrar",
         "et_kk_þgf": "sentimetra",
@@ -168,6 +193,7 @@ distanace_units = [
         "ft_kk_þf": "sentimetra",
     },
     {
+        "et_kk_þf": "metra",
         "et_kk_nf": "metri",
         "ft_kk_nf": "metrar",
         "et_kk_þgf": "metra",
@@ -175,6 +201,7 @@ distanace_units = [
         "ft_kk_þf": "metra",
     },
     {
+        "et_kk_þf": "kílómetra",
         "et_kk_nf": "kílómetri",
         "ft_kk_nf": "kílómetrar",
         "et_kk_þgf": "kílómetra",
@@ -182,6 +209,7 @@ distanace_units = [
         "ft_kk_þf": "kílómetra",
     },
     {
+        "et_kvk_þf": "mílu",
         "et_kvk_nf": "míla",
         "ft_kvk_nf": "mílur",
         "et_kvk_þgf": "mílu",
@@ -189,6 +217,7 @@ distanace_units = [
         "ft_kvk_þf": "mílur",
     },
     {
+        "et_kvk_þf": "sjómílu",
         "et_kvk_nf": "sjómíla",
         "ft_kvk_nf": "sjómílur",
         "et_kvk_þgf": "sjómílu",
@@ -196,6 +225,7 @@ distanace_units = [
         "ft_kvk_þf": "sjómílur",
     },
     {
+        "et_kvk_þf": "tommu",
         "et_kvk_nf": "tomma",
         "ft_kvk_nf": "tommur",
         "et_kvk_þgf": "tommu",
@@ -203,8 +233,10 @@ distanace_units = [
         "ft_kvk_þf": "tommur",
     },
     {
+        "et_hk_þf": "fet",
         "et_hk_þgf": "feti",
         "et_hk_nf": "fet",
+        "ft_hk_nf": "fet",
         "ft_hk_þgf": "fetum",
         "ft_hk_þf": "fet",
     },
